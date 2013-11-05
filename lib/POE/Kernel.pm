@@ -3493,7 +3493,9 @@ earlier due times.  Therefore a delay () with a zero or negative
 DURATION_SECONDS jumps ahead of the queue.
 
 delay() may be considered a shorthand form of alarm(), but there are
-subtle differences in timing issues.  This code is roughly equivalent
+subtle differences in timing issues, due to the fact that you must know
+the absolute and precise current time to duplicate the exact moment
+when alarm () will fire with a delay ().  This code is roughly equivalent
 to the alarm() example.
 
   POE::Session->create(
