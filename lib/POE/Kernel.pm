@@ -3819,7 +3819,7 @@ global unique identifier.
   );
 
 Kernels also maintain a global session namespace or dictionary from which
-may be used to map a symbolic aliases to a session. Once an alias is mapping
+may be used to map a symbolic aliases to a session. Once a mapping to an alias
 has been created, that alias may be used to refer to the session wherever a
 session may be specified.
 
