@@ -4175,7 +4175,7 @@ details.
 
 =item _stop
 
-_stop is a little more mysterious.  POE calls a _stop handler when a
+_stop is a little more mysterious.  POE calls the _stop handler when a
 session is irrevocably about to be destroyed.  Part of session
 destruction is the forcible reclamation of its resources (events,
 timers, message events, etc.) so it's not possible to post() a message
